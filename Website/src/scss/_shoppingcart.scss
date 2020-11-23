@@ -1,0 +1,192 @@
+.shoppingcart-data-container {
+    width: 100%;
+    min-width: 480px;
+    table {
+        border: 1px solid #ebebeb;
+    }
+    .table tbody + tbody {
+        border-top: none;
+    }
+    th, td {
+        border: none;
+        vertical-align: middle;
+    }
+    .product-img {
+        height: 170px;
+        width: 170px;
+        padding-top: 30px;
+        padding-left: 30px;
+        margin-bottom: 25px;
+    }
+    .product-price-design {
+        color: #e7ab3c;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    th {
+        border-bottom: 1px solid #dee2e6 !important;
+    }
+    // Quantity Number Input Design
+    .number-input input[type="number"] {
+        -webkit-appearance: textfield;
+        -moz-appearance: textfield;
+        appearance: textfield;
+        }
+        
+        .number-input input[type=number]::-webkit-inner-spin-button,
+        .number-input input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        }
+        
+        .number-input {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+        
+        .number-input button {
+        -webkit-appearance: none;
+        background-color: transparent;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin: 0;
+        position: relative;
+        }
+        
+        .number-input button:before,
+        .number-input button:after {
+        display: inline-block;
+        position: absolute;
+        content: '';
+        height: 2px;
+        transform: translate(-50%, -50%);
+        }
+        
+        .number-input button.plus:after {
+        transform: translate(-50%, -50%) rotate(90deg);
+        }
+        
+        .number-input input[type=number] {
+        text-align: center;
+        }
+        
+        .number-input.number-input {
+        border: 1px solid #ced4da;
+        width: 10rem;
+        border-radius: .25rem;
+        }
+        
+        .number-input.number-input button {
+        width: 2.6rem;
+        height: .7rem;
+        }
+        
+        .number-input.number-input button.minus {
+        padding-left: 10px;
+        }
+        
+        .number-input.number-input button:before,
+        .number-input.number-input button:after {
+        width: .7rem;
+        background-color: #495057;
+        }
+        
+        .number-input.number-input input[type=number] {
+        max-width: 4rem;
+        padding: .5rem;
+        border: 1px solid #ced4da;
+        border-width: 0 1px;
+        font-size: 1rem;
+        height: 2rem;
+        color: #495057;
+        }
+        
+        @media not all and (min-resolution:.001dpcm) {
+        @supports (-webkit-appearance: none) and (stroke-color:transparent) {
+        .number-input.def-number-input.safari_only button:before,
+        .number-input.def-number-input.safari_only button:after {
+        margin-top: -.3rem;
+        }
+        }
+        }
+
+        .dropdown-product-type {
+            font-size: 16px;
+            color: #4c4c4c;
+            background-color: transparent;
+            border: 1px solid #ced4da;
+            padding: 8px 12px 8px 12px;
+        }
+}
+
+.continue-shopping-btn {
+    color: #b2b2b2;
+    border: 2px solid #ebebeb;
+    background: #ffffff;
+    margin-right: 8px;
+    padding: 12px 20px 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    &:hover {
+        background: #252525;
+        color: #fff;
+        transition: all .5s;
+    }
+}
+.pay-container {
+    border: 2px solid #ebebeb;
+    background: #f3f3f3;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.pay-btn {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #252525;
+    text-transform: uppercase;
+    padding: 15px 25px 14px 25px;
+    display: block;
+    text-align: center;
+    &:hover {
+        color: #e7ab3c;
+    }
+}
+
+.product-container {
+    border: 2px solid #ebebeb;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 22px;
+    padding-bottom: 35px;
+    .btn-shop {
+        padding: 13px 40px 11px;
+        background: #000000;
+        border-color: #000000;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 4px;
+        &:hover {
+            background-color: #fff;
+            color: #000;
+            transition: all .5s;
+        }
+    }
+    .products-list {
+        position: relative;
+        display: flex;
+        list-style: none;
+        color: #252525;
+        font-size: 15px;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 18px;
+        padding-top: 30px;
+        margin-left: auto;
+    }
+}

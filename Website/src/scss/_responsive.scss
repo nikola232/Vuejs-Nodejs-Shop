@@ -1,0 +1,41 @@
+// Devices (desktops, 768px and up)
+@media (min-width: 768px) { 
+    .btn-outline-custom {
+        font-size: 12px;
+    }
+    .navbar-brand {
+        font-size: 16px;
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .product-search-input {
+        width: 198px !important;
+    }
+ }
+
+// Extra large devices (large desktops, 1024px and up)
+@media (min-width: 1024px) { 
+    .product-search-input {
+        width: 304px !important;
+    }
+    .btn-outline-custom {
+        font-size: 16px;
+    }
+    .text-categories {
+        font-size: 16px !important;
+    }
+ }
+
+ @media (min-width: 1166px) { 
+    .product-search-input {
+        width: 416px !important;
+    }
+    .btn-outline-custom {
+        font-size: 16px;
+    }
+    .navbar-brand {
+        font-size: 16px;
+    }
+ }

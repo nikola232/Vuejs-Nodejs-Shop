@@ -1,0 +1,88 @@
+// Buyer data container
+.data-container {
+    .title-container {
+        color: #252525;
+        font-size: 16px;
+        border: 2px solid #ebebeb;
+        padding: 14px 20px;
+        margin: 4px 0px 40px 0px;
+        background: #f3f3f3;
+        text-align: center;
+        display: block;
+    }
+    .input-name {
+        width: 48%;
+    }
+    p {
+        margin: 0px;
+    }
+    input {
+        width: 100%;
+        height: 46px;
+        border: 2px solid #ebebeb;
+        padding-left: 15px;
+    }
+    .btn-order {
+        padding: 13px 40px 11px;
+        background: #000000;
+        border-color: #000000;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 4px;
+        &:hover {
+            background-color: #fff;
+            color: #000;
+            transition: all .5s;
+        }
+    }
+}
+
+// Product Container
+.products-container {
+    .title-container {
+        color: #252525;
+        font-size: 16px;
+        border: 2px solid #ebebeb;
+        padding: 14px 20px;
+        margin: 4px 0px 40px 0px;
+        background: #f3f3f3;
+        text-align: center;
+        display: block;
+    }
+    .product-container {
+        border: 2px solid #ebebeb;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 22px;
+        padding-bottom: 35px;
+        height: 531px;
+        overflow: auto;
+        .btn-shop {
+            padding: 13px 40px 11px;
+            background: #000000;
+            border-color: #000000;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 4px;
+            &:hover {
+                background-color: #fff;
+                color: #000;
+                transition: all .5s;
+            }
+        }
+        .products-list {
+            position: relative;
+            display: flex;
+            list-style: none;
+            color: #252525;
+            font-size: 15px;
+            padding-top: 30px;
+            margin-left: auto;
+            .img-product {
+                height: 64px;
+            }
+        }
+    }
+}
